@@ -262,10 +262,7 @@ docker ps
 
 ## Step 7 - Configure Environment Variables
 
-```bash
-```
-
-Optional Langfuse configuration.
+Langfuse configuration.
 
 ```bash
 export LANGFUSE_PUBLIC_KEY=<key>
