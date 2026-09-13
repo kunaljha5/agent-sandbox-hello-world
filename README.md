@@ -243,20 +243,3 @@ Langfuse records:
 This makes debugging and observability much easier.
 
 ---
-
-## Cleanup
-
-Delete all sandboxes.
-
-```bash
-kubectl delete sandboxes --all
-kubectl delete sandboxwarmpools --all
-kubectl delete sandboxtemplates --all
-```
-
-Stop the MCP server.
-
-```bash
-docker stop github-mcp
-docker rm github-mcp
-```
