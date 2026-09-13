@@ -16,6 +16,9 @@ I wanted an AI coding agent that could:
 
 The result is a local AI agent powered by Kubernetes.
 
+![Architecture](assets/arch.png)
+
+
 ---
 
 ## What We Are Building
